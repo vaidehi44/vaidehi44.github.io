@@ -1,0 +1,108 @@
+body {
+    margin:0;
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: rgb(226, 230, 236);
+}
+.nav {
+    background-color: rgb(226, 230, 236);
+    padding: 7px;
+    height: 50px;
+}
+
+.nav div.tabs {
+    float:right;
+}
+.nav div.tabs a{
+    display:inline-block;
+    margin: 0;
+    padding:0;
+    margin-top: -6px;;
+}
+
+.tabs a div{
+    margin-right:-4px;
+    padding:21px;
+}
+.tabs a:hover {
+    background-color: rgb(195, 221, 219);
+    color:rgb(100, 130, 168);
+}
+.nav a{
+    text-decoration:none;
+    color: rgb(100, 194, 163);
+}
+.nav img {
+    float: left;
+}
+
+.main {
+    position:relative;
+    z-index:3;
+    margin: 0;
+    padding: 70px;
+    padding-bottom: 25px;
+}
+
+.main h1 {
+    margin:50px;
+    margin-bottom: 35px;
+    font-weight:normal;
+}
+
+.main p{
+    margin-left: 50px;
+    font-size: 21px;
+}
+ul {
+    margin: 55px;
+}
+
+li {
+    margin: 17px;
+    font-size: 20px;
+}
+span {
+    color: rgb(88, 145, 219);
+}
+footer {
+    position:relative;
+    z-index:3;
+    text-align:center;
+    padding: 30px;
+    padding-bottom:50px;
+}
+
+footer a{
+    margin: 30px;
+    text-decoration: none;
+    color:rgb(51, 50, 50);
+}
+
+div.container {
+    margin:0;
+    position:relative;
+    overflow:hidden;
+}/*
+div.design {
+    height:2000px;
+    width: 600px;
+    background-color:rgb(185, 221, 198);
+    transform: rotate(-15deg);
+    position: absolute;
+    z-index:2;
+    top:-400px;
+    bottom:0px;
+    right:-300px;
+}*/
+
+div.design2 {
+    height: 200px;
+    width: 1500px;
+    background-color:rgb(185, 221, 198);
+    position: absolute;
+    z-index:2;
+    transform: rotate(-3deg);/*rotation*/
+    bottom: -80px;
+    left: -25px;
+} 
+

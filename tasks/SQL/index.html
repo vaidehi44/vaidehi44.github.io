@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align:center;
+        }
+        h2 {
+           font-weight: normal; 
+        }
+        button {
+            margin: 15px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>An example of query performed and its output:</h2>
+    <button class="query">Query</button>
+    <button class="output">Output</button>
+
+    <div class="container" style="text-align:center; margin-top: 20px;" >
+        <div class="query" style="height: 500px; width: 45%; display:inline-block; background-color: rgb(186, 217, 247);">
+
+        </div>
+        <div class="output" style="height: 500px; width: 45%; display:inline-block; background-color: rgb(173, 240, 173);">
+
+        </div>
+        
+    </div>
+    <script>
+        $(document).ready( function() {
+
+        $("button.query").click(function() {
+            $("div.query").css({"background-image":"url('query.png')","background-repeat":"no-repeat","background-position": "center"});
+        });
+
+        $("button.output").click(function() {
+            $("div.output").css({"background-image":"url('output.png')","background-repeat":"no-repeat","background-position": "center"});
+        });
+
+
+    })
+    </script>
+    
+
+</body>
+</html>

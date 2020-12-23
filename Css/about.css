@@ -1,0 +1,92 @@
+body {
+    margin:0;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.nav {
+    background-color: rgb(226, 230, 236);
+    padding: 7px;
+    height: 50px;
+}
+.nav div.tabs {
+    float:right;
+}
+.nav div.tabs a{
+    display:inline-block;
+    margin: 0;
+    padding:0;
+    margin-top: -6px;;
+}
+
+.tabs a div{
+    margin-right:-4px;
+    padding:21px;
+}
+.tabs a:hover {
+    background-color: rgb(195, 221, 219);
+    color:rgb(100, 130, 168);
+}
+.nav a{
+    text-decoration:none;
+    color: rgb(100, 194, 163);
+}
+.nav img {
+    float: left;
+}
+#image {
+    display: block;
+    margin:auto;
+    border-radius: 50%;
+    margin-top:33px;
+}
+.main {
+    padding:40px;
+    background-color: rgb(226, 230, 236);
+}
+.content {
+    padding: 15%;
+    padding-top:0;
+}
+.content h1{
+    font-weight:normal;
+    text-align: center;
+    padding: 30px;
+    color:rgb(48, 92, 87);
+    border-bottom: 1px solid rgb(78, 108, 110);
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid rgb(60, 83, 66);
+    border-collapse: collapse;
+}
+td {
+    font-size:16px;
+    text-align: left;
+    padding: 8px;
+    color: rgb(53, 93, 99);
+}
+th {
+    font-size:19px;
+    text-align: left;
+    padding: 8px;
+    font-weight: normal;
+    color: rgb(58, 103, 110);
+    text-decoration: underline;
+}
+#accordion .ui-accordion-header{
+    background-image: none;
+    background-color: rgb(197, 216, 210);
+    border: none;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    color: rgb(63, 128, 138);
+    font-weight: 500;
+    border-bottom: 1px solid rgb(44, 116, 93);
+}
+
+#accordion .ui-accordion-content{
+    background-image:none;
+    background-color: rgb(210, 223, 219);
+    color: rgb(58, 103, 110);
+}

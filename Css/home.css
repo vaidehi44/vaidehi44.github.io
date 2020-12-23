@@ -1,0 +1,94 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin:0;
+    background-color: rgb(226, 230, 236);
+}
+div.logo{
+    padding: 7px;
+    position:relative;
+    z-index:3;
+}
+div.main {
+    margin:0;
+    position:relative;
+    background-color: rgb(226, 230, 236);
+    overflow:hidden;
+}
+
+#image {
+    display: block;
+    margin:auto;
+    margin-top:30px;
+    border-radius: 50%;
+    position:relative;
+    z-index:3;
+}
+
+div.content {
+    padding:40px;
+    text-align: center;
+    position:relative;
+    z-index:3;
+}
+
+.content h1 {
+    color:rgb(18, 51, 47);
+    margin: 40px;
+    position: relative;
+    font-weight:normal;
+}
+h1:after {
+    content:"";
+    position: absolute;
+    width:10%;
+    left: 45%;
+    height: 60px;
+    border-bottom: 1px solid rgb(64, 99, 93);
+}
+.content p{
+    padding-top:10px;
+    letter-spacing: 0px;
+    word-spacing: 5px;
+}
+.nav {
+    margin: 40px;
+    margin-bottom: 50px;
+}
+.nav a {
+    margin:15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(17, 71, 64);
+}
+.nav a:hover {
+    text-decoration: underline 1px rgb(17, 71, 64);
+}
+
+.social a {
+    margin:20px;
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+}
+div.design {
+    height:2000px;
+    width: 600px;
+    background-color:rgb(185, 221, 198);
+    transform: rotate(15deg);/*rotation*/
+    position: absolute;
+    z-index:2;
+    top:-400px;
+    bottom:0px;
+    left:-300px;
+}
+
+div.design2 {
+    height: 200px;
+    width: 1500px;
+    background:rgb(175, 197, 199);
+    position: absolute;
+    z-index:2;
+    transform: rotate(4deg);/*rotation*/
+    bottom: -105px;
+    left: -25px;
+} 
+

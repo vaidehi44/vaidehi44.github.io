@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">  
+    <title>YouTube API Videos</title>  
+    <link rel="stylesheet" href='style.css'>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>  
+    <script src="Script.js"></script> 
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>  
+<body>  
+    <div id="container">  
+        <h1>Watch Youtube videos from your favorite channels</h1>  
+        <div id='accordion'>
+            <h3 class='channel1'>Ted Ed</h3>
+            <div class= 'flex-container'>
+                <div id="id1">  
+                </div>  
+            </div>  
+
+            <h3 class="channel2">Traversy media</h3>
+
+            <div class= 'flex-container'>
+                <div id="id2">  
+                </div>  
+
+            </div>  
+
+            <h3 class='channel3'>Khan Academy</h3>
+            <div class= 'flex-container'>
+                <div id="id3">  
+                </div>  
+            </div>  
+
+
+        </div>
+        
+    </div>  
+    <img src='youtube.jpg'>
+
+    <script>
+        $( "#accordion" ).accordion({heightStyle: "content",active: false, collapsible:true
+        });
+    </script>
+</body> 
+</html>

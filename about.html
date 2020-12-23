@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="Css/about.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <a  href="index.html"><img id="logo" src="images/explorin_logo.jpeg" width=150px height=50px></a>
+        <div class="tabs">
+            <a class="s" href="about.html"><div >ABOUT</div></a>
+            <a href="project.html"><div>PROJECTS</div></a>
+            <a href="contact.html"><div>CONTACTS</div></a>
+        </div>
+    </div>
+
+    <div class="main">    
+        <img id="image" src="images/image.jpg" height=220px weight =220px>
+        <div class="content">
+
+            <h1>About</h1>
+            <div id="accordion">
+                <h3>Introduction</h3>
+                <div>
+                  <p>I am Vaidehi Atpadkar. I am currently studying Engineering Physics 
+                    at IIT Mandi.
+                    But I also want to explore my interest in Software Development.</p>
+                </div>
+                <h3>Education</h3>
+                    <div>
+                      <table>
+                          <tr>
+                              <th>Class</th>
+                              <th>School</th>
+                              <th>Percentage</th>
+                          </tr>
+                          <tr>
+                              <td>X</td>
+                              <td>R.M.D.E.M.S</td>
+                              <td>98</td>
+                          </tr>
+                          <tr>
+                              <td>XII</td>
+                              <td>Fergusson College Pune</td>
+                              <td>85.3</td>
+                          </tr>
+                      </table>
+                    </div>
+                <h3>Reasons to join</h3>
+                <div>
+                  <p>Till now, I have tried a few things in web development. But nothing kept me going in the long run.
+                    I have really liked a few things, but I couldn't continue doing them and explore more.
+                    I guess this is due to lack of systematic guidance. So I want to properly explore and understand several aspects of 
+                    software development and find my true interests.
+                  </p>
+                </div>
+                <h3>Journey till now</h3>
+                  <div>
+                    <p>My journey till now with Explorin has been really wonderful. I have really enjoyed and liked all the 
+                        things which I have done here; be it learning from resources, understanding new concepts, doing tasks, 
+                        interacting with all the mentors, industrial experts and all the explorers. Each day I am getting to learn 
+                        something new. So, I am really looking forward to the program and wish to learn and explore more.  
+                    </p>
+                    </div>
+                <h3>Technologies learnt</h3>
+                  <div>
+                    <p>Frontend - HTML, CSS, Jquery basics<br>Backend - SQL, PHP</p>
+                  </div>
+          
+                  
+            </div>
+        </div>        
+    </div>
+
+<script>
+    $( "#accordion" ).accordion({heightStyle: "content",active: false, collapsible:true});
+</script>
+
+</body>
+</html>

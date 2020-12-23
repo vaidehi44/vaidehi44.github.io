@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Day 4, bonus task</h1>
+    <div class='container'>
+        
+        <p class='intro'>
+            Given below is a calculator which calculates contribution to be made by every member, given total
+            amount of bill and total no. of members. 
+        </p>
+        <table>
+            <tr>
+                <th>Bill Amount (Rs.)</th>
+                <td><input type="number" id ="bill" name="x" value='' placeholder="Enter here"></td> 
+            </tr>
+            <tr>
+                <th>No. of members</th>
+                <td><input type="number" id ="members" name="y" value='' placeholder="Enter here"></td>
+            </tr>
+        </table>
+        <script>
+            function fun() {
+            var a = document.getElementById("bill").value;
+            var b = document.getElementById("members").value;
+            var c = Math.round(a/b*100)/100
+            document.getElementById("contri").innerHTML = c +" Rs.";
+        }
+        </script>
+        <button class='button' type='button' onclick="fun()">Click here to get contribution</button>
+        <p class='ans'>So contribution by each member = <u id="contri"></u></p>
+        <a href='index.html' ><button class='button'>Refresh</button></a>
+
+    </div>
+</body>
+</html>
