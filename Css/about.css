@@ -21,13 +21,19 @@ body {
     margin-right:-4px;
     padding:21px;
 }
+
 .tabs a:hover {
     background-color: rgb(195, 221, 219);
     color:rgb(100, 130, 168);
 }
+
 .nav a{
     text-decoration:none;
     color: rgb(100, 194, 163);
+}
+.nav a.current {
+    background-color:rgb(195, 221, 219);
+    color:rgb(100, 130, 168);
 }
 .nav img {
     float: left;
