@@ -82,17 +82,17 @@ th {
 }
 #accordion .ui-accordion-header{
     background-image: none;
-    background-color: rgb(197, 216, 210);
+    background-color: rgb(182, 216, 194);
     border: none;
     font-size: 20px;
     letter-spacing: 0.8px;
-    color: rgb(63, 128, 138);
+    color: rgb(42, 79, 85);
     font-weight: 500;
     border-bottom: 1px solid rgb(44, 116, 93);
 }
 
 #accordion .ui-accordion-content{
     background-image:none;
-    background-color: rgb(210, 223, 219);
+    background-color: rgb(198, 219, 213);
     color: rgb(58, 103, 110);
 }
